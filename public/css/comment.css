@@ -1,0 +1,59 @@
+.a11y-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+}
+body {
+  width: 100vw;
+}
+.head {
+  display: flex;
+  width: 100%;
+  min-height: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #000;
+  justify-content: space-between;
+}
+
+.head h1 {
+  margin-left: 2%;
+}
+
+.nav-menu {
+  display: flex;
+  width: 90vw;
+
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li a {
+  display: block;
+  margin-right: 10px;
+  padding: 30px 15px;
+}
+
+
+.my-menu {
+  display: flex;
+  align-items: center;
+}
+
+.my-menu a {
+  display: block;
+  padding: 30px 15px;
+  margin-right: 10px;
+}
+.search-form {
+  overflow: hidden;
+}
+.toggle-btn {
+  margin-right: 15px;
+}
