@@ -19,52 +19,65 @@
     </h1>
       <nav class="nav-menu">
         <ul class="nav-list">
-          <li class="nav-list-item1">
+          <li class="nav-list-item">
             <button class="nav-list-btn1">모델</button>
-            <ul class="nav-list-item-ul1">
+            <div class="list-group">
+            <ul class="nav-list-item-ul1 nav-list-commend">
               <li>
+                <div class="car">
                 <span>GENESIS</span>
                 <span>G70</span>
                 <img src="./img/g70.jpg" alt="G70">
-                <a href="#">자세히보기</a>
+                <a class="ok" href="#">자세히보기</a>
+              </div>
                 <a href="#">견적 내기<span>&gt;</span></a>
               </li>
               <li>
+                <div class="car">
                 <span>GENESIS</span>
                 <span>G80</span>
                 <img src="./img/G80.jpg" alt="G70">
-                <a href="#">자세히보기</a>
+                <a class="ok" href="#">자세히보기</a>
+              </div>
                 <a href="#">견적 내기<span>&gt;</span></a>
                 <a href="#">시승 신청<span>&gt;</span></a>
               </li>
               <li>
+                <div class="car">
                 <span>GENESIS</span>
                 <span>G90</span>
                 <img src="./img/G90.jpg" alt="G70">
-                <a href="#">자세히보기</a>
+                <a class="ok" href="#">자세히보기</a>
+              </div>
                 <a href="#">견적 내기<span>&gt;</span></a>
                 <a href="#">시승 신청<span>&gt;</span></a>
               </li>
               <li>
+                <div class="car">
                 <span>GENESIS</span>
                 <span>GV70</span>
-                <img src="./img/GV70.jpg" alt="G70">
-                <a href="#">자세히보기</a>
+                <img src="./img/GV70.png" alt="G70">
+                <a class="ok" href="#">자세히보기</a>
+              </div>
               </li>
               <li>
+                <div class="car">
                 <span>GENESIS</span>
                 <span>GV80</span>
                 <img src="./img/GV80.jpg" alt="G70">
-                <a href="#">자세히보기</a>
+                <a class="ok" href="#">자세히보기</a>
+              </div>
                 <a href="#">견적 내기<span>&gt;</span></a>
                 <a href="#">시승 신청<span>&gt;</span></a>
               </li>
             </ul>
+          </div>
           </li>
-          <li>
+          <li class="nav-list-item">
             <button class="nav-list-btn2">구매</button>
-            <ul  class="nav-list-item-ul2">
-              <li>
+            <div class="list-group">
+            <ul  class="nav-list-item-ul2 nav-list-commend">
+              <li class="price">
                 <a href="#">구매 프로그램</a>
                 <a href="#">구매 프로그램 소개</a>
               </li>
@@ -86,10 +99,13 @@
               <li><a href="#">전시장 찾기</a><span>&gt;</span></li>
               <li><a href="#">멤버십 소개</a><span>&gt;</span></li>
             </ul>
+          </div>
           </li>
-          <li><button class="nav-list-btn3">체험</button>
-            <ul class="nav-list-item-ul2">
-              <li>
+          <li class="nav-list-item">
+            <button class="nav-list-btn3">체험</button>
+            <div class="list-group">
+            <ul class="nav-list-item-ul3 nav-list-commend">
+              <li class="sub">
                 <a href="#">스페이스</a>
                 <a href="#">스페이스 소개</a>
                 <a href="#">스페이스 하남</a>
@@ -109,9 +125,12 @@
               <li><a href="#">구매 상담 신청</a><span>&gt;</span></li>
               <li><a href="#">서비스 센터 찾기</a><span>&gt;</span></li>
             </ul>
+          </div>
           </li>
-          <li><button class="nav-list-btn3">멤버스</button>
-            <ul class="nav-list-item-ul2">
+          <li class="nav-list-item">
+            <button class="nav-list-btn3">멤버스</button>
+            <div class="list-group">
+            <ul class="nav-list-item-ul4 nav-list-commend">
               <li>
                 <a href="#">제네시스 멤버십</a>
                 <a href="#">멤버십 소개</a>
@@ -146,9 +165,12 @@
               <li><a href="#">제네시스 멤버스 몰</a></li>
               <li><a href="#">내비게이션 업데이트</a></li>
             </ul>
+          </div>
           </li>
-          <li><button  class="nav-list-btn3">제네시스</button>
-            <ul class="nav-list-item-ul2">
+          <li class="nav-list-item">
+            <button  class="nav-list-btn3">제네시스</button>
+            <div class="list-group">
+            <ul class="nav-list-item-ul5 nav-list-commend">
               <li>
                 <a href="#">브랜드 소개</a>
               </li>
@@ -188,21 +210,28 @@
               <li><a href="#">제네시스 스튜디오</a><span>&gt;</span></li>
               <li><a href="#">제네시스 챔피언십</a></li>
             </ul>
+          </div>
           </li>
         </ul>
+      </nav>
        <div class="my-menu">
          <a href="#">고객센터</a>
          <a href="#">마이 페이지</a>
-    
        <form class="search-form" action="#">
         <input type="text" class="search-input" placeholder="검색">
+        <button class="search-btn">찾기</button>
       </form>
+      <div class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
       <button class="toggle-btn">버튼</button>
     </div>
-      </nav>
+    </div>
+      
     </header>
   </div>
-  <script type="module" src="./js/app.mjs"></script>
-  <script type="module" src="./js/app1.mjs"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/app1.js"></script>
 </body>
 </html>
